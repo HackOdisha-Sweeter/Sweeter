@@ -5,16 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
     <title>Sweeter - Twitter but Sweeter</title>
 </head>
 <body>
-    <ul>
+    
+    <div class="container-body">
+        <div class="navbar">
+
+        </div>
+        <div class="container-main">
+            <div class="sidebar">
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+                <div class="card"></div>
+            </div>
+            <div class="content-container">
+                <div class="post-container">
+                    <!-- {% for post in posts %}
+                        <div class="post-card card">
+                            {{post.title}}
+                        </div>
+                    {% endfor %} -->
+                </div>
+                <form method="post" id="post-form" class="editor-container">
+                    <!-- <form action="" method="post"> -->
+                        <textarea id="post-textarea" cols="" rows=""></textarea>
+                        <button id="submit-btn" type="submit" disabled>Sweet</button>
+                    <!-- </form> -->
+                    </button>
+                </div>
+            </div>
+            <div class="card-container">
+                
+            </div>
+        </div>
+    </div>
+    <!-- <ul>
         {% for post in posts %}
         <li>{{ post.title }}</a></li>
         <li>{{ post.t2 }}</a></li>
         {% endfor %}
     </ul>
-    <button id="btn">click</button>
+    <button id="btn">click</button> -->
 </body>
 <script src="{{url_for('static',filename='main.js')}}"></script>
 </html>

@@ -21,16 +21,16 @@ class Sonar(object):
         assert isinstance(text, str)
         vector = self.preprocessor.transform([text])
         proba = self.estimator.predict_proba(vector)[0]
-        mapping = {0: 'hate_speech', 1: 'offensive_language', 2: 'neither'}
+        mapping = {0: True, 1: True, 2: False}
         res = {
             'text': text,
-            'top_class': mapping[np.argmax(proba)],
-            'classes': [
-                {'class_name': mapping[k], 'confidence': proba[k]} 
-                for k in sorted(mapping)
-            ]
+            'state': mapping[np.argmax(proba)],
+            # 'classes': [
+            #     {'class_name': mapping[k], 'confidence': proba[k]} 
+            #     for k in sorted(mapping)
+            # ]
         }
-        return res
+        return res['state'], res['text']
     def get_weights(self, text):
         def get_class_idx():
             res = self.ping(text)
