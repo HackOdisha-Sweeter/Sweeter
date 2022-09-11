@@ -8,6 +8,11 @@ body{
     overflow: hidden;
 }
 
+
+a{
+    text-decoration: none !important;
+}
+
 .contain{
     width: 100vw;
     height:100vh;

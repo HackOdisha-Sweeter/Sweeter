@@ -109,11 +109,13 @@ $(document).ready(function(){
     //     event.preventDefault()
     // })
     $('#post-form').on('submit', function(event){
+        
         var text = $("#post-textarea").val()
         var uname = username
         var img = profile
         posts.push({"Username": uname, "PostContent": text, 'image': img})
         populate()
+        document.getElementById('post-form').reset()
         event.preventDefault()
     })
     populate()
