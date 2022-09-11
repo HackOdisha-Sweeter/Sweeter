@@ -25,12 +25,8 @@ class Sonar(object):
         res = {
             'text': text,
             'state': mapping[np.argmax(proba)],
-            # 'classes': [
-            #     {'class_name': mapping[k], 'confidence': proba[k]} 
-            #     for k in sorted(mapping)
-            # ]
         }
-        return res['state'], res['text']
+        return res
     def get_weights(self, text):
         def get_class_idx():
             res = self.ping(text)
@@ -49,11 +45,15 @@ Profanity_check_object = Sonar()
 
 @app.route('/')
 def home():
-    print(Profanity_check_object.ping(request.args.get('word')))
+    # print(Profanity_check_object.ping(request.args.get('word')))
     print(Profanity_check_object.ping('fuck'))
     return render_template('home.html', posts = l)
 
-
+@app.route('/WordCheck', methods = ['POST', 'GET'])
+def check():
+    string = request.form.get('text')
+    print(string)
+    return {'response':Profanity_check_object.ping(string)}
 
 
 app.run(debug=True)
