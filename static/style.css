@@ -4,16 +4,20 @@
     font-family: 'Caladea', serif;
 }
 
+body{
+    overflow: hidden;
+}
+
 .contain{
     width: 100vw;
     height:100vh;
     background-image: linear-gradient(to right, #fe96e5, #fe96e5, #fe96e5, #fe96e5, #fe96e5, #fe96e5, #fe96e5, #fd95e4, #fd95e4, #fd95e4, #fd95e4, #fd95e4, #fd95e4, #fd95e4, #fd95e4, #fc95e6, #fc95e6, #fc95e6, #fc95e6, #fc95e6, #fc95e6, #fb96e6, #fb96e6, #fa95e5, #fa95e5, #fa95e5, #fa95e5, #f895e5, #f895e5, #f895e5, #f895e5, #f994e4, #f994e4, #f994e4, #f994e4, #f794e4, #f794e4, #f794e4, #f794e4, #f794e4, #f794e4, #f695e4, #f695e4, #f695e4, #f695e4, #f695e4, #f695e4, #f695e6, #f695e6, #f695e6, #f695e6, #f695e6, #f695e6, #f495e6, #f495e6, #f394e5, #f394e5, #f394e5, #f394e5, #f295e5, #f295e5, #f295e5, #f295e5, #f293e7, #f293e7, #f293e7, #f293e7, #f293e7, #f293e7, #f293e7, #f293e7, #f192e6, #f192e6, #f192e6, #f192e6, #f192e6, #f192e6, #f192e6, #f092e6, #f092e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ef93e6, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #ec93e7, #eb91e8, #eb91e8, #eb91e8, #eb91e8, #ea92e8, #ea92e8, #ea92e8, #ea92e8, #e991e7, #e991e7, #e792e7, #e792e7, #e792e7, #e792e7, #e792e7, #e792e7, #e791e8, #e791e8, #e791e8, #e791e8, #e791e8, #e791e8, #e692e8, #e692e8, #e692e8, #e692e8, #e692e8, #e692e8, #e593e8, #e593e8, #e593e8, #e593e8, #e591e9, #e591e9, #e591e9, #e591e9, #e491e9, #e491e9, #e491e9, #e491e9, #e491e9, #e491e9, #e292e9, #e292e9, #e292e9, #e292e9, #e292e9, #e292e9, #e091ea, #e091ea, #e091ea, #e091ea, #e091ea, #e091ea, #e091ea, #e091ea, #df90e9, #df90e9, #df90e9, #df90e9, #df90e9, #df90e9, #df90e9, #df90e9, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #dd91eb, #db91ea, #db91ea, #db91ea, #db91ea, #db91ea, #db91ea, #da91ea, #da91ea, #da91ea, #da91ea, #da91ea, #da91ea, #d892ea, #d892ea, #d892ea, #d892ea, #d791ea, #d791ea, #d791ea, #d791ea, #d791ea, #d791ea, #d791ea, #d791ea, #d690e9, #d690e9, #d690e9, #d690e9, #d690e9, #d690e9, #d690e9, #d690e9, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d590ed, #d28fec, #d28fec, #d28fec, #d28fec, #d28fec, #d28fec, #d28fec, #d28fec, #d18eeb, #d18eeb, #d18eeb, #d18eeb, #d18eeb, #d18eeb, #d18eeb, #d08feb, #cf8eec, #ce8eec, #ce8eec, #ce8eec, #ce8eec, #ce8eec, #cc8fec, #cc8fec, #cc8fec, #cc8fec, #cc8fec, #cc8fec, #cb90ec, #cb90ec, #cb90ec, #cb90ec, #cc8fee, #cc8fee, #cc8fee, #cc8fee, #cc8fee, #cc8fee, #cc8fee, #cc8fee, #cb8eed, #cb8eed, #cb8eed, #cb8eed, #cb8eed, #cb8eed, #cb8eed, #cb8eed, #ca8eee, #ca8eee, #ca8eee, #ca8eee, #ca8eee, #ca8eee, #c88fee, #c88fee, #c78eed, #c78eed, #c68fed, #c68fed, #c68fed, #c68fed, #c68fed, #c68fed, #c88ff0, #c88ff0, #c78ff0, #c68eef, #c68eef, #c58dee, #c58dee, #c58dee, #c48eee, #c48eee, #c48eee, #c48eee, #c48eee, #c48eee, #c28fee, #c28fee, #c58df0, #c58df0, #c58df0, #c58df0, #c48ef0, #c48ef0, #c48ef0, #c48ef0, #c38def, #c38def, #c18def, #c18def, #c18def, #c18def, #c18def, #c18def, #c08cf0, #c08cf0, #c08cf0, #c08cf0, #c08cf0, #c08cf0, #bf8df0, #bf8df0, #bf8df0, #bf8df0, #bf8df0, #bf8df0, #bd8df0, #bd8df0, #bd8df0, #bd8df0, #bf8dee, #bf8dee, #bf8dee, #bf8dee, #bd8df0, #bd8df0, #bd8df0, #bd8df0, #bc8cef, #bc8cef, #bb8df0, #bb8df0, #bb8df0, #bb8df0, #bb8df0, #bb8df0, #ba8ef0, #ba8ef0, #ba8ef0, #ba8ef0, #ba8ef0, #ba8ef0, #ba8ef0, #ba8ef0, #b98def, #b98def, #b98def, #b98def, #b98def, #b98def, #b98def, #b98def, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b68cf2, #b58cf2, #b48bf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf1, #b28cf3, #b28cf3, #b28cf3, #b28cf3, #b28cf3, #b28cf3, #b28cf3, #b28cf3, #b18bf2, #b18bf2, #b18bf2, #b18bf2, #b18bf2, #b18bf2, #b18bf2, #b08bf2, #af8af3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ae8bf3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #ab8af3, #aa8bf3, #a88bf5, #a78cf5, #a78cf5, #a78cf5, #a78cf5, #a78cf5, #a78cf5, #a78cf5, #a68bf4, #a68bf4, #a68bf4, #a68bf4, #a68bf4, #a68bf4, #a68bf4, #a68bf4, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a58af5, #a48af5, #a38af2, #a18af2, #a18af4, #a18af4, #a18af4, #a18af4, #a18af4, #a18af4, #a18af6, #a18af6, #a18af6, #a18af6, #a18af6, #a18af6, #a189f7, #a189f7, #a08af6, #a08af6, #a08af6, #a08af6, #a08af6, #a08af6, #a08af6, #a08af6, #9f89f5, #9f89f5, #9f89f5, #9f89f5, #9f89f5, #9f89f5, #9f89f5, #9d8af5, #9c89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9b89f5, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9989f6, #9887f7, #9887f7, #9887f7, #9887f7, #9688f7, #9688f7, #9688f7, #9688f7, #9688f7, #9688f7, #9589f7, #9589f7, #9589f7, #9589f7, #9589f7, #9589f7, #9288f8, #9288f8, #9288f8, #9288f8, #9288f8, #9288f8, #9288f8, #9288f8, #9187f7, #9187f7, #9187f7, #9187f7, #9187f7, #9187f7, #9187f7, #9187f7, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #9088f8, #8f88f8, #8e87f9, #8c88f9, #8c88f9, #8c88f9, #8c88f9, #8c88f9, #8c88f9, #8c88f9, #8b87f8, #8b87f8, #8b87f8, #8b87f8, #8b87f8, #8b87f8, #8b87f8, #8b87f8, #8a87f8, #8a87f8, #8a87f8, #8a87f8, #8a87f8, #8a87f8, #8a87f8, #8a87f8, #8986f7, #8986f7, #8986f7, #8986f7, #8986f7, #8986f7, #8986f7, #8986f7, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8787f9, #8586fc, #8586fc, #8586fc, #8586fc, #8586fc, #8586fc, #8586fc, #8586fc, #8485fb, #8485fb, #8485fb, #8485fb, #8485fb, #8485fb, #8485fb, #8386fb, #8186fb, #8087fb, #8087fb, #8087fb, #8087fb, #8087fb, #8087fb, #8087fb, #7f86fa, #7f86fa, #7f86fa, #7f86fa, #7f86fa, #7f86fa, #7f86fa, #7f86fa, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7f86fb, #7d86fb, #7c85fe, #7b85fe, #7b85fe, #7b85fe, #7b85fe, #7b85fe, #7b85fe, #7b85fe, #7a84fd, #7a84fd, #7a84fd, #7a84fd, #7a84fd, #7a84fd, #7a84fd, #7a84fd, #7985fd, #7985fd, #7985fd, #7985fd, #7985fd, #7985fd, #7985fd, #7985fd, #7884fc, #7884fc, #7884fc, #7884fc, #7884fc, #7884fc, #7884fc, #7884fc, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7684fe, #7585fe, #7484fe, #7285fe, #7285fe, #7285fe, #7285fe, #7285fe, #7285fe, #7285fe, #7184fd, #7184fd, #7184fd, #7184fd, #7184fd, #7184fd, #7184fd, #7184fd, #7183ff, #7183ff, #7183ff, #7183ff, #7084ff, #7084ff, #7084ff, #7084ff, #6f83fe, #6f83fe, #6e84fe, #6e84fe, #6e84fe, #6e84fe, #6e84fe, #6e84fe, #6e84fe, #6e84fe, #6c84fe, #6c84fe, #6c84fe, #6c84fe, #6c84fe, #6c84fe, #6a84fd, #6a84fd, #6a84fd, #6a84fd, #6a84fd, #6a84fd, #6885fd, #6885fd, #6a84ff, #6a84ff, #6a84ff, #6a84ff, #6a84ff, #6a84ff, #6a84ff, #6a84ff, #6b85ff, #6b85ff, #6b85ff, #6b85ff, #6b85ff, #6b85ff, #6b85ff, #6b85ff, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6b85fe, #6a87ff, #6a87ff, #6a87ff, #6a87ff, #6a87ff, #6a87ff, #6a87ff, #6a87ff, #6b88ff, #6b88ff, #6b88ff, #6b88ff, #6b88ff, #6b88ff, #6b88ff, #6b88ff, #6a89fe, #6a89fe, #6a89fe, #6a89fe, #6a89fe, #6a89fe, #6a89fe, #6a89fe, #6b8aff, #6b8aff, #6b8aff, #6b8aff, #6b8aff, #6b8aff, #6b8aff, #6b8aff, #6b89ff, #6b89ff, #6b89ff, #6b89ff, #6b8aff, #6b8aff, #6b8aff, #6b8aff, #6c8bff, #6c8bff, #6c8bff, #6c8bff, #6c8bff, #6c8bff, #6c8bff, #6c8bff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8cff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6d8eff, #6b8fff, #6b8fff, #6b8fff, #6b8fff, #6b8fff, #6b8fff, #6b8fff, #6b8fff, #6c90ff, #6c90ff, #6c90ff, #6c90ff, #6c90ff, #6c90ff, #6c90ff, #6c90ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d91ff, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6d93fe, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6e94ff, #6d96ff, #6d96ff, #6d96ff, #6d96ff, #6d96ff, #6d96ff, #6d96ff, #6d96ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e97ff, #6e99ff, #6e99ff, #6e99ff, #6e99ff, #6e99ff, #6e99ff, #6e99ff, #6e99ff, #6f9aff, #6f9aff, #6f9aff, #6f9aff, #6f9aff, #6f9aff, #6f9aff, #6f9aff, #6f9bfe, #6f9bfe, #6f9bfe, #6f9bfe, #6f9bfe, #6f9bfe, #6e9cfe, #6e9cfe, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6d9dff, #6d9dff, #6d9dff, #6d9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #6f9dff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #719fff, #6f9fff, #6f9fff, #6fa0ff, #6fa0ff, #6fa0ff, #6fa0ff, #6fa0ff, #6fa0ff, #70a1fe, #70a1fe, #70a1fe, #70a1fe, #70a1fe, #70a1fe, #70a1fd, #70a1fd, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a2ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #71a4ff, #72a5ff, #72a5ff, #72a5ff, #72a5ff, #72a5ff, #72a5ff, #70a6fe, #70a6fe, #70a6fe, #70a6fe, #70a6fe, #70a6fe, #6fa7fc, #6fa7fc, #6fa7fc, #6fa7fc, #71a7ff, #71a7ff, #71a7ff, #71a7ff, #71a7ff, #71a7ff, #71a7ff, #71a7ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #72a8ff, #73a9ff, #73a9ff, #73a9ff, #73a9ff, #73a9ff, #73a9ff, #73a9ff, #73a9ff, #72aaff, #72aaff, #72aaff, #72aaff, #72aaff, #72aaff, #72aaff, #72aaff, #73abff, #73abff, #73abff, #73abff, #73abff, #73abff, #73abff, #73abff, #72acfe, #72acfe, #72acfe, #72acfe, #72acfe, #72acfe, #72acfe, #72acfe, #73adff, #73adff, #73adff, #73adff, #73adff, #73adff, #73adff, #73adff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #74afff, #72afff, #72afff, #72afff, #72afff, #72afff, #72afff, #72afff, #72afff, #73b0ff, #73b0ff, #73b0ff, #73b0ff, #73b0ff, #73b0ff, #73b0ff, #73b0ff, #73b1fe, #73b1fe, #73b1fe, #73b1fe, #73b1fe, #73b1fe, #73b1fe, #73b1fe, #74b2ff, #74b2ff, #74b2ff, #74b2ff, #74b2ff, #74b2ff, #74b2ff, #74b2ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #74b3ff, #75b3fe, #75b3fe, #75b3fe, #75b3fe, #74b4fe, #74b4fe, #74b4fe, #74b4fe, #75b5ff, #75b5ff, #73b5ff, #73b5ff, #73b5ff, #73b5ff, #73b5ff, #73b5ff, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #74b7fe, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75b8ff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #75baff, #76baff, #76baff, #76baff, #76baff, #76bbff, #76bbff, #76bbff, #76bbff, #77bcff, #77bcff, #77bcff, #77bcff, #77bcff, #77bcff, #77bcff, #77bcff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #76bdff, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #77befe, #76c0ff, #76c0ff, #76c0ff, #76c0ff, #76c0ff, #76c0ff, #76c0ff, #76c0ff, #77c1ff, #77c1ff, #77c1ff, #77c1ff, #77c1ff, #77c1ff, #77c1ff, #77c1ff, #77c1fe, #77c1fe, #77c1fe, #77c1fe, #77c1fe, #77c1fe, #77c1fe, #77c1fe, #78c2ff, #78c2ff, #78c2ff, #78c2ff, #78c2ff, #78c2ff, #78c2ff, #78c2ff, #77c3fd, #77c3fd, #77c3fd, #77c3fd, #77c3fd, #77c3fd, #77c3fd, #77c3fd, #78c4fe, #78c4fe, #78c4fe, #78c4fe, #78c4fe, #78c4fe, #78c4fe, #78c4fe, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #79c5ff, #77c6fe, #77c6fe, #77c6fe, #77c6fe, #77c6fe, #77c6fe, #77c6fe, #77c6fe, #78c7ff, #78c7ff, #78c7ff, #78c7ff, #78c7ff, #78c7ff, #78c7ff, #78c7ff, #77c8ff, #77c8ff, #77c8ff, #77c8ff, #77c8ff, #77c8ff, #77c8ff, #77c8ff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79caff, #79ccff, #79ccff, #79ccff, #79ccff, #79ccff, #79ccff, #79ccff, #79ccff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7acdff, #7bceff, #7bceff, #7bceff, #7bceff, #7bceff, #7bceff, #7bceff, #7bceff, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7bcffe, #7cd0ff, #7cd0ff, #7cd0ff, #7cd0ff, #7ad0ff, #7ad0ff, #7ad0ff, #7ad0ff, #7bd1ff, #7bd1ff, #7ad2ff, #7ad2ff, #7ad2ff, #7ad2ff, #7ad2ff, #7ad2ff, #7ad3ff, #7ad3ff, #7ad3ff, #7ad3ff, #7ad3ff, #7ad3ff, #7ad3ff, #7ad3ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd3ff, #7bd3ff, #7bd3ff, #7bd3ff, #7bd4ff, #7bd4ff, #7bd4ff, #7bd4ff, #7cd5ff, #7cd5ff, #7cd5ff, #7cd5ff, #7cd5ff, #7cd5ff, #7cd5ff, #7cd5ff, #7ad6ff, #7ad6ff, #7ad6ff, #7ad6ff, #7ad6ff, #7ad6ff, #7ad6ff, #7ad6ff, #7bd7ff, #7bd7ff, #7bd7ff, #7bd7ff, #7bd7ff, #7bd7ff, #7bd7ff, #7bd7ff); 
 }
-.fa-solid
+/* .fa-solid
 {
     font-size: 2rem;
     padding: 0.5rem;;
-}
+} */
 .container-main{
     width: 100%;
     height:calc(100% - 70px);
@@ -26,7 +30,8 @@
 .navbar1{
     height: 70px;
     width: 100%;
-    background-color: #48363f96;
+    background-color: rgba(255, 255, 255, 0.65);
+    /* background-color: rgba(255, 255, 255, 0.9); */
     /* text-align: right; */
     display: flex;
     align-items: center;
@@ -84,12 +89,39 @@
     align-items: center;
     
 }
+
+.logo{
+    width: 20%;
+    height: 100%;
+}
+
+.logo>img{
+    width: 100%;
+    height: 100%;
+}
+
 .user-profile
 {
     margin: 1rem;
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    height: 4rem;
     border-radius: 50%;
     border: black solid 1px;
 }
+
+.user-name{
+    font-weight: bold;
+}
+
+.user-profile>img{
+    height: 100%;
+    width: 100%;
+}
+
 .link-page
 {
     width: 30%;
@@ -105,7 +137,7 @@
 .links
 {
     background-color: rgba(255, 255, 255, 0.6);
-    height: 50px;
+    /* height: 50px; */
     margin: 0.6rem 0;
     border-radius: 8px;
     width: calc(100%-100px);
@@ -115,7 +147,7 @@
     font-size: small;
     margin-top:1rem;;
     text-align: center;
-    padding: 0.5rem;
+    padding: 1rem 0.5rem;
 
 }
 
@@ -129,11 +161,15 @@
 }
 
 .dropdown-div{
-    height: 2rem;
-    width: 2rem;
-    padding: 1rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     background-color: #fff;
+}
+
+.dropdown-div>img{
+    width: 100%;
+    height: 100%;
 }
 
 .dropdown-div:hover+.dropdown-content{
@@ -152,7 +188,7 @@
     width: max-content;
     background-color: rgba(255, 255, 255, 1);;
     padding: 0.6rem 1rem;
-    border-radius: 20%;
+    border-radius: 6PX;
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur(9px);
     -webkit-backdrop-filter: blur(9px);
@@ -197,7 +233,7 @@
     height: 20%;
     width: 90%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }

@@ -1,6 +1,7 @@
-posts = [{'Username': '@internet_is_a_donout', 'PostContent':'The internet was created to connect and empower. But these benefits have always succumbed to vile acts of the wrong hands. Unsafe space for women is not only bound to the real world; the digital world does not hold back in oppressing them. Rape threats, body-shaming, and judgemental and obscene comments are faced by women daily.','image': 'user-1'}, {'Username': '@twitter_fly_off', 'PostContent':'These so-called \'trolls\' are like parasites infesting the internet, trolling women for existing, for being too fat, for being too thin, for being too slutty, for being too modest.','image': 'user-1'}, {'Username': '@make_it_sweeter', 'PostContent':'So, we decided to make the internet safer and Sweeter for the entire world, especially our women.','image': 'user-1'}, {'Username': '@make_it_sweeter', 'PostContent':'Sweeter uses AI trained on an extensive data set and can detect hate speech, profanity and even racial slurs. The Internet is in our hands; let\'s make it Sweeter together.','image': 'user-1'}]
+posts = [{'Username': '@internet_is_a_donout', 'PostContent':'The internet was created to connect and empower. But these benefits have always succumbed to vile acts of the wrong hands. Unsafe space for women is not only bound to the real world; the digital world does not hold back in oppressing them. Rape threats, body-shaming, and judgemental and obscene comments are faced by women daily.','image': 'user-1'}, {'Username': '@twitter_fly_off', 'PostContent':'These so-called \'trolls\' are like parasites infesting the internet, trolling women for existing, for being too fat, for being too thin, for being too slutty, for being too modest.','image': 'user-1'}, {'Username': '@make_it_sweeter', 'PostContent':'So, we decided to make the internet safer and Sweeter for the entire world, especially our women.','image': "{{url_for('static',filename='profile.png')}}"}, {'Username': '@make_it_sweeter', 'PostContent':'Sweeter uses AI trained on an extensive data set and can detect hate speech, profanity and even racial slurs. The Internet is in our hands; let\'s make it Sweeter together.','image': "{{url_for('static',filename='profile.png')}}"}]
 
 var username = '@make_it_sweeter'
+var profile = ''
 function populate(){
     var ContainerElement = document.getElementById('scroll')
     while (ContainerElement.hasChildNodes()) {
@@ -13,6 +14,21 @@ function populate(){
         UserCElem.setAttribute('class', 'user-container')
         var UserC_PElem = document.createElement('div')
         UserC_PElem.setAttribute('class', 'user-profile')
+        if (element.image == 'user-1'){
+            var icon = document.createElement('i')
+            icon.setAttribute('class', 'fa-solid fa-user')
+            UserC_PElem.append(icon)
+        }
+        else if (element.image == 'user-2'){
+            var icon = document.createElement('i')
+            icon.setAttribute('class', 'fa-duotone fa-user')
+            UserC_PElem.append(icon)
+        }
+        else{
+            var img = document.createElement('img')
+            img.setAttribute('src',"./static/profile.png")
+            UserC_PElem.append(img)
+        }
         var UserC_NElem = document.createElement('div')
         UserC_NElem.setAttribute('class', 'user-name')
         UserC_NElem.innerText = element['Username']
@@ -95,7 +111,7 @@ $(document).ready(function(){
     $('#post-form').on('submit', function(event){
         var text = $("#post-textarea").val()
         var uname = username
-        var img = ''
+        var img = profile
         posts.push({"Username": uname, "PostContent": text, 'image': img})
         populate()
         event.preventDefault()
