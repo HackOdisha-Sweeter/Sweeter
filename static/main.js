@@ -2,6 +2,8 @@ posts = [{'Username': '@internet_is_a_donout', 'PostContent':'The internet was c
 
 var username = '@make_it_sweeter'
 var profile = ''
+var button = document.querySelector("button.btn");
+
 function populate(){
     var ContainerElement = document.getElementById('scroll')
     while (ContainerElement.hasChildNodes()) {
@@ -44,6 +46,11 @@ function populate(){
     });
     // console.log(ContainerElement)
 }
+if(button.disabled==true)
+{
+    button.classList.add("disabled");
+}
+
 
 function SendText(){
     var text = $("#post-textarea")
@@ -61,6 +68,7 @@ function SendText(){
         }
     })
 }
+
 
 // function submit(){
 //     $('#post-form').on('submit', function(event){
