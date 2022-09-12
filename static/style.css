@@ -294,7 +294,8 @@ textarea#post-textarea{
 #submit-btn{
     border: #000;
 }
-#submit-btn:disabled{
-    cursor: not-allowed;
+.disabled{
+    cursor: not-allowed !important;
+    pointer-events: all !important;
 }
 
